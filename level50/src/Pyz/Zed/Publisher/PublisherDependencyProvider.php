@@ -149,8 +149,10 @@ use Spryker\Zed\StoreStorage\Communication\Plugin\Publisher\Store\StoreSynchroni
 use Spryker\Zed\StoreStorage\Communication\Plugin\Publisher\Store\StoreWritePublisherPlugin;
 use Spryker\Zed\TaxProductStorage\Communication\Plugin\Publisher\TaxProductPublisherTriggerPlugin;
 use Spryker\Zed\TaxStorage\Communication\Plugin\Publisher\TaxSetPublisherTriggerPlugin;
-use Pyz\Shared\AntelopeSearch\AntelopeLocationSearchConfig;
+use Pyz\Shared\AntelopeSearch\AntelopeSearchConfig;
 use Pyz\Zed\AntelopeSearch\Communication\Plugin\Publisher\AntelopeWritePublisherPlugin;
+
+use Pyz\Shared\AntelopeLocationSearch\AntelopeLocationSearchConfig;
 use Pyz\Zed\AntelopeLocationSearch\Communication\Plugin\Publisher\AntelopeLocationWritePublisherPlugin;
 
 class PublisherDependencyProvider extends SprykerPublisherDependencyProvider
